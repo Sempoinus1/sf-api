@@ -51,7 +51,7 @@ pub struct OtherPlayers {
     player_id_lookup: HashMap<PlayerId, usize>,
     name_lookup: HashMap<String, usize>,
     /// Other players, that has been fetched
-    other_players: Vec<OtherPlayer>,
+    pub other_players: Vec<OtherPlayer>,
 
     pub guilds: HashMap<String, OtherGuild>,
 
